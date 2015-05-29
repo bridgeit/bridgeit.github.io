@@ -2,11 +2,9 @@
 function replaceFeatureText() {
     var width = $(window).width();
     if (width <= 565) {
-        $(".augRealityTxt").text('AugReality');
         $(".cloudPushTxt").text('Push');
     }
     else {
-        $(".augRealityTxt").text('Augmented Reality');
         $(".cloudPushTxt").text('Cloud Push');
     }
 }

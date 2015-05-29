@@ -498,10 +498,6 @@ html.ie8 #carousel{
     right: 18%;
     left: 18%;
 }
-#carousel .augmented-reality .feature h1{
-    font-size: 29px;
-    margin-bottom: 15px;
-}
 @media screen and (max-width: 767px) {
     .visible-xs{
         display: inline-block !important;
@@ -760,32 +756,6 @@ html.ie8 #features .grid{
 html.ie8 .features-fallback{
     display: block !important;
 }
-.augmented-reality-icon{
-    background-image: url(../images/augmented-reality-icon-for-carousel.png);
-    display: block;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-}
-#features .augmented-reality-icon{
-    width: 50px;
-    height: 50px;
-    background-size: 41px;
-    background-position: 5px 0;
-}
-#apidocs .augmented-reality-icon{
-    width: 50px;
-    height: 50px;
-    background-size: 41px;
-    background-position: 5px 0;
-}
-@media screen and (max-width: 767px) {
-    #apidocs .augmented-reality-icon, #features .augmented-reality-icon{
-        background-image: url(../images/augmented-reality-icon-grey.png);
-        width: 32px;
-        background-size: 20px;
-        background-position: 4px 4px;
-    }
-}
 
 .grid{
     margin: 15px;
@@ -897,10 +867,6 @@ html.ie8 .features-fallback{
     line-height: 2.3em;
 }
 
-.grid .row .cell i.aug{
-    font-size: 46px;
-    margin-top: -26px;
-}
 .grid .row.odd .cell{
     background-color: rgb(234,234,234);
     padding-top: 20px;
@@ -960,11 +926,6 @@ html.ie8 .features-fallback{
     margin-top: 58px;
     padding: 0;
     line-height: 0;
-}
-#carousel .augmented-reality-icon{
-    display: inline-block;
-    vertical-align: bottom;
-    margin-bottom: -10px;
 }
 .grid .row .cell i.fa-picture{
     font-style: normal;
